@@ -1,0 +1,30 @@
+{
+  "name": "vlq-buffer",
+  "version": "0.1.0",
+  "description": "A simple set of functions for converting between integer and VLQ buffer values",
+  "main": "src/vlq.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonbukowski/vlq-buffer.git"
+  },
+  "keywords": [
+    "VLQ",
+    "Buffer",
+    "Variable length"
+  ],
+  "author": "Jason Bukowski <jbukowski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonbukowski/vlq-buffer/issues"
+  },
+  "homepage": "https://github.com/jasonbukowski/vlq-buffer#readme",
+  "devDependencies": {
+    "should": "^11.2.0"
+  }
+}
